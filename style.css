@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+
+.card img {
+    border: #3882F6 solid 6px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8%;
+}
