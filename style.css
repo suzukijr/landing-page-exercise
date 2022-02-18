@@ -58,7 +58,9 @@ button {
     background-color: #3882F6;
     border-radius: 12%;
     border-color: white;
-    color: white
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
 }
 
 .hero button {
@@ -74,6 +76,7 @@ button {
 
 .card p {
     width: 200px;
+    color: #868686;
 }
 
 section{
@@ -84,6 +87,8 @@ section{
 
 .card-heading {
     align-self: center;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .card-container {
@@ -112,7 +117,7 @@ section{
 }
 
 .section-cta {
-    padding: 100px 0px 100px 0px;
+    padding: 100px 100px 100px 100px;
     display: flex;
     color: white;
 }
@@ -123,6 +128,7 @@ section{
     justify-content: space-between;
     padding: 40px 200px 40px 200px;
     align-items: center;
+    border-radius: 15px;
 }
 
 .cta-container button {
